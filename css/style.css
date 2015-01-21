@@ -15,7 +15,7 @@ body {
 
 #pagewrap {
 	padding: 5px;
-	width: 1096px;
+	width: 1240px;
 	margin: 20px auto;
 }
 #header {
@@ -23,20 +23,20 @@ body {
 	padding: 0 15px;
 }
 #content {
-	width: 240px;
+	width: 293px;
 	float: left;
 	padding: 5px 15px;
 }
 
 #middle {
-	width: 540px; /* Account for margins + border values */
+	width: 571px; /* Account for margins + border values */
 	float: left;
 	padding: 5px 15px;
 	margin: 0px 5px 5px 5px;
 }
 
 #sidebar {
-	width: 210px;
+	width: 270px;
 	padding: 5px 15px;
 	float: left;
 }
