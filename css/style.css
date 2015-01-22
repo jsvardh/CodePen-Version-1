@@ -1,5 +1,34 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 
+/* Button CSS */
+.btn {
+  background: #b82f42;
+  background-image: -webkit-linear-gradient(top, #b82f42, #b82f42);
+  background-image: -moz-linear-gradient(top, #b82f42, #b82f42);
+  background-image: -ms-linear-gradient(top, #b82f42, #b82f42);
+  background-image: -o-linear-gradient(top, #b82f42, #b82f42);
+  background-image: linear-gradient(to bottom, #b82f42, #b82f42);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #d4374e;
+  background-image: -webkit-linear-gradient(top, #d4374e, #d4374e);
+  background-image: -moz-linear-gradient(top, #d4374e, #d4374e);
+  background-image: -ms-linear-gradient(top, #d4374e, #d4374e);
+  background-image: -o-linear-gradient(top, #d4374e, #d4374e);
+  background-image: linear-gradient(to bottom, #d4374e, #d4374e);
+  text-decoration: none;
+}
+
+
 /*
 body { 
   font-family: 'Open Sans', sans-serif;
@@ -7,8 +36,15 @@ body {
 }
 */
 
+h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 200%;
+}
+
 body {
 	font-family: 'Open Sans', sans-serif;
+	font-size: 75%;
+	text-align: justify;
 }
 
 /* STRUCTURE */
